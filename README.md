@@ -3,9 +3,11 @@
 ## workflow
 1. created setup.py, template.py and requirements.txt
 
-2. Created custom exception in exception.py and logger.py
+2. Created custom exception in exception.py and logger.py and a function to read yaml
 
-3.created EDA and Model trainer in research
+3. created EDA and Model trainer in research
+
+4. Add new config.yaml file and done data_ingestion
 
 ## To run 
 1. Create a virtual env and activate it
