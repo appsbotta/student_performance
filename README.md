@@ -11,6 +11,8 @@
 
 5. Completed data transformation
 
+6. Model Training
+
 ## To run 
 1. Create a virtual env and activate it
 ```bash
