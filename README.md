@@ -9,6 +9,8 @@
 
 4. Add new config.yaml file and done data_ingestion
 
+5. Completed data transformation
+
 ## To run 
 1. Create a virtual env and activate it
 ```bash

@@ -6,3 +6,7 @@ data_ingestion:
   data_file: artifacts/data_ingestion/data.csv
   train_file: artifacts/data_ingestion/train.csv
   test_file: artifacts/data_ingestion/test.csv
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  
