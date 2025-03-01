@@ -14,10 +14,10 @@ from src.logger import logging
 from src.utils import save_obj,read_yaml
 
 config_path = 'config.yaml'
-config = read_yaml(config_path)
+config = read_yaml(config_path,'data_transformation')
 
 params_path = 'params.yaml'
-params = read_yaml(params_path)
+params = read_yaml(params_path,'data_transformation')
 
 @dataclass
 class DataTransformationConfig:
