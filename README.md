@@ -5,8 +5,14 @@
 
 2. Created custom exception in exception.py and logger.py
 
+3.created EDA and Model trainer in research
+
 ## To run 
-1. Create a virtual env
+1. Create a virtual env and activate it
+```bash
+conda create -p env python y
+conda activate /path/to/env
+```
 
 2. Install requirements.txt
 ```bash

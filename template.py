@@ -8,6 +8,7 @@ dirs = [
     'artifacts',
     os.path.join('src','components'),
     os.path.join('src','pipeline'),
+    os.path.join('research','data')
 ]
 
 for dir in dirs:
