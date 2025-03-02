@@ -9,3 +9,4 @@ dill
 xgboost
 Flask
 PyYAML
+python-box
