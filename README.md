@@ -15,6 +15,10 @@
 
 7. Created the prediction pipeline and the Flask app
 
+8. Created .ebextensions for deployment
+
+
+
 ## To run 
 1. Create a virtual env and activate it
 ```bash
