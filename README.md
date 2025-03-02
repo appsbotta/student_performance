@@ -17,7 +17,34 @@
 
 8. Created .ebextensions for deployment
 
+9. create .github actions
 
+10. create ECR repo and save the repo uri 
+
+11. create a ec2 instance 
+
+12. Create a iam user and save a access key
+
+13. In github, in settings under action/runner create a new runner.
+        a. while running the cmds in order when asked for runner group keep it default but for runner name use self-hosted
+
+14. Create Secret keys in github which are in workflow
+
+## Docker Setup In EC2 commands to be Executed
+#optinal
+1. sudo apt-get update -y
+
+2. sudo apt-get upgrade
+
+#required
+
+1. curl -fsSL https://get.docker.com -o get-docker.sh
+
+2. sudo sh get-docker.sh
+
+3. sudo usermod -aG docker ubuntu
+
+4. newgrp docker 
 
 ## To run 
 1. Create a virtual env and activate it
