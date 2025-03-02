@@ -13,6 +13,8 @@
 
 6. Model Training
 
+7. Created the prediction pipeline and the Flask app
+
 ## To run 
 1. Create a virtual env and activate it
 ```bash

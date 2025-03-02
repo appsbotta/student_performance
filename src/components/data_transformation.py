@@ -21,7 +21,7 @@ params = read_yaml(params_path,'data_transformation')
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_ob_file_path=os.path.join(config.data_transformation.root_dir,"preprocessor.pkl")
+    preprocessor_ob_file_path=config.data_transformation.preprocessor_path
 
 class DataTransformation:
     def __init__(self):

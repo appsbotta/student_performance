@@ -22,7 +22,7 @@ config = read_yaml(config_path,'model_trainer')
 
 @dataclass
 class ModelTrainerConfig:
-    treained_model_file_path = os.path.join(config.model_trainer.root_dir,"model.pkl")
+    treained_model_file_path = config.model_path
 
 class ModelTrainer:
     def __init__(self):
